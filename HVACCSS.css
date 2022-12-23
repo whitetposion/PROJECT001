@@ -1,0 +1,59 @@
+h1{
+     color:#00b496;
+     font-family:Verdana;
+     font-size: 70px;
+     display:flex;
+     text-align:center;
+     
+}
+head{
+     font-family: verdana;
+     text-align:center;
+     
+     
+}
+div{
+     text-align: center;
+     color: rgb(94, 12, 227);
+     font-size: 30;
+     line-height: 20px ;
+     color:#ffff;
+     font-weight:100px;
+    
+}
+.subtitle{
+     
+     display:inline-block;
+     padding: 10px;
+     text-transform:uppercase;
+     border:solid;
+     border-radius: 20px;
+     border-color: #ffff;
+     
+}
+body{
+     background-color:#202020 ;
+     height: auto;
+}
+.forview{
+     font-weight: lighter;
+     text-align:unset
+
+}
+
+.forview span a{
+     margin-left:700px;
+}
+.forview span k{
+     margin-left: 30px;
+}
+.forview span c{
+     
+     margin-left: 30px;
+}
+.forview span d{
+     margin-left: 30px;
+}
+.color{
+     background-color: white;
+}

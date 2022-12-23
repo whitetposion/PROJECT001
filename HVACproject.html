@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="viewport" content="height=device-height, initial-scale=1">
+     <link rel="stylesheet" href="HVACCSS.css">
+     <title>cooling load estimation </title>
+</head>
+<body>
+     
+     <div>
+          <h1>Cooling load estimation</h1>
+
+          <div>
+          <form action="">
+               <label class="foralign" for="system">unit system:</label>
+               <select name="unit system" id="system">
+                    <option value="op1"><b>British thermal unit</b></option>
+                    
+                    <option value="op2"><b>Metric unit</b></option>
+               </select>
+
+          </form>
+          </div>
+     
+          <div>
+          <br>
+          <form action="" class="foralign">
+               <label  for="side1">Area of room:-</label>
+               <input type="number" id="side1" placeholder="length" value="200" min="100" max="10000" step="100">
+               <input type="number" id="side2" placeholder="breath" value="200" min="100" max="10000" step="100">
+               <input type="number" id="height" placeholder="height" value="4" min="3" max="20">
+          </form>
+          </div>
+
+          <div>
+          <h2 class="subtitle">Design conditions for summer</h2>
+          <h4 class="forview">
+               <span>
+                    <a>DBT</a>
+                    <k>WBT</k>
+                    <c>RH% </c>
+                    <d>DPT</d>
+               </span>
+          </h4>
+               
+          </div>
+
+          <div>
+          <form action="">
+               <label class="foralign" for="ambient">Ambient(outside)</label>
+               <input type="number" name="ambientdb"id="ambient" value="33" min="20" max="60">
+               <input type="number" name="ambientwb" id="ambient" value="30" min="20" max="50">
+               <input type="number" name="ambientRH" id="ambient" value="50" min="10" max="100">
+               <input type="number" name="ambientDPT" id="ambient" value="3" min="-10" max="10">
+               <br><br>
+               <label class="foralign" for="inside">Room(indoor)</label>
+               <input type="number" name="insideDB" id="inside" value="33" min="-10" max="60">
+               <input type="number" name="insideWB" id="inside" value="20" min="-10" max="25">
+               <input type="number" name="insideRH" id="inside" value="30" min="30" max="60">
+               <input type="number" name="insideDPT" id="inside" value="3" min="-10" max="10">
+          </form>
+          </div>
+               <h2 class="subtitle">Internal heat</h2>
+          <div class="div">
+          <form action="">
+               <label class="foralign" for="internalH1">No. of person</label>
+               <input type="number" name="internalheat" id="internalH1" value="6" min="0" max="500">
+               <br><br>
+               <label class="foralign" for="internalH2">Lighting</label>
+               <input type="number" name="internalheat2" id="internalH2" placeholder="in terms of area">
+               <br>
+
+               <label class="foralign" for="internalH3">Appliances</label>
+               <select type="checkbox" name="internalheat3" id="internalH3" >
+                    <option value="q1">1</option><br>
+                    <option value="q1">2</option><br>
+                    <option value="q1">3</option><br>
+                    <option value="q1">4</option><br>
+                    <option value="q1">5</option><br>
+                    <option value="q1">6</option>
+               <br>
+               <h2 class="subtitle">Solar gain through glass</h2>
+               <br>
+
+          </form>
+          </div>
+
+          <div class="div">
+               <form action="">
+               <label class="foralign" for="internalH1">No. of person</label>
+               <input type="number" name="internalheat" id="internalH1" value="6" min="0" max="500">
+               <br><br>
+               <label class="foralign" for="internalH2">Lighting</label>
+               <input type="number" name="internalheat2" id="internalH2" placeholder="in terms of area">
+               <br>
+
+               <label class="foralign" for="internalH3">Appliances</label>
+               <select type="checkbox" name="internalheat3" id="internalH3" >
+                    <option value="q1">1</option><br>
+                    <option value="q1">2</option><br>
+                    <option value="q1">3</option><br>
+                    <option value="q1">4</option><br>
+                    <option value="q1">5</option><br>
+                    <option value="q1">6</option>
+               </select>
+               </form>
+          
+          
+     </div>
+          <div class="color">
+       <h2 class="">Solar gain through glass</h2>
+         </div>
+     </div>
+
+     
+          
+     </div>
+     
+</body>
+</html>
