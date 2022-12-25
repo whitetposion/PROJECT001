@@ -1,30 +1,22 @@
-h1{
-     color:#00b496;
-     font-family:Verdana;
-     font-size: 70px;
-     display:flex;
-     text-align:center;
-     
-}
-head{
-     font-family: verdana;
-     text-align:center;
-     
-     
-}
 div{
+     text-align: center;
+}
+div div{
      text-align: center;
      color: rgb(94, 12, 227);
      font-size: 30;
      line-height: 20px ;
      color:#ffff;
      font-weight:100px;
-    
+     min-width:500px;
+     
+     
 }
 .subtitle{
      
      display:inline-block;
      padding: 10px;
+     text-align: center;
      text-transform:uppercase;
      border:solid;
      border-radius: 20px;
@@ -33,27 +25,71 @@ div{
 }
 body{
      background-color:#202020 ;
-     height: auto;
+     
 }
 .forview{
      font-weight: lighter;
-     text-align:unset
+     text-align: center;
+     display: block;
+     text-align:center;
 
 }
 
 .forview span a{
-     margin-left:700px;
+     margin-left:120px;
 }
 .forview span k{
-     margin-left: 30px;
+     margin-left: 20px;
 }
 .forview span c{
-     
-     margin-left: 30px;
+     margin-left: 20px;
 }
 .forview span d{
-     margin-left: 30px;
+     margin-left: 20px;
 }
-.color{
-     background-color: white;
+div div .foralign1{
+     word-wrap: normal;
+     
+     
+
+}
+h1{
+     color:#55d5c0;
+     font-family:calibri;
+     
+     font-size: 70px;
+     line-height: 60px;
+     text-align:center;
+     margin:50px;
+}
+head{
+     
+     font-family: verdana;
+     text-align:center;
+}
+@media ( max-width:550px)
+ {   
+     h1 {
+          font-size: 50px;
+     }
+}
+#side1 {
+     width:40px;
+}
+#side2{
+     width:40px;
+}
+#height{
+     width:40px;
+}
+#ambient{
+     width:40px
+     
+}
+#inside{
+     width:40px
+     
+}
+#indoor{
+     margin-left:20px
 }
