@@ -73,7 +73,7 @@ head{
           font-size: 50px;
      }
 }
-#side1 {
+#side1, #totalarea {
      width:40px;
 }
 #side2{
@@ -81,6 +81,9 @@ head{
 }
 #height{
      width:40px;
+}
+#totalarea {
+     width:80px;
 }
 #ambient{
      width:40px

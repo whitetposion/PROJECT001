@@ -6,6 +6,7 @@
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <meta name="viewport" content="height=device-height, initial-scale=1">
      <link rel="stylesheet" href="HVACCSS.css">
+     <link rel="script" href="app.js">
      <title>Cooling load calculator</title>
 </head>
 <body>
@@ -31,9 +32,13 @@
                     <input type="number" id="side1" placeholder="length" value="200" min="100" max="10000" step="100" required>
                     <input type="number" id="side2" placeholder="breath" value="200" min="100" max="10000" step="100" required>
                     <input type="number" id="height" placeholder="height" value="4" min="3" max="20" required>
+                    <button onclick="multiply()">calculate</button>
+                    <input id="totalarea" >
                </form>
+
                
           </div>
+          
 
           <div>
                <h2 class="subtitle">Design conditions for summer</h2>
@@ -103,6 +108,6 @@
      
      </div>   
      </div>
-     
+     <script link="app.js"></script>
 </body>
 </html>
